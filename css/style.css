@@ -74,10 +74,17 @@
 
         main section:first-of-type h1 {
             display: block;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            font-size: 2em;
+            font-weight: 800
         }
 
-        main section:first-of-type p:first-of-type {
+        main section:first-of-type p {
+            color: lightgrey;
             float: left;
+            font-family: 'Lekton', sans-serif;
+            font-size: .5em;
+            text-transform: uppercase
         }
 
         main section:first-of-type div {
@@ -90,6 +97,9 @@
 
         main section:first-of-type div p {
             float: left;
+            font-family: 'Lekton', sans-serif;
+            font-size: .5em;
+            text-transform: uppercase
         }
     
     main section:last-of-type {
