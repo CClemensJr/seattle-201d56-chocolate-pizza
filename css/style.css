@@ -14,6 +14,39 @@
 /*********************
 * Header
 **/
+    header {
+        padding-top: 2em;
+        padding-bottom: 2em;
+        /* margin-top: 2em;
+        margin-bottom: 2em; */
+    }
+
+    header section img {
+        float: left;
+        margin-right: 0.5em;
+    }
+
+    header nav {
+        float: right;
+        padding-bottom: 1em;
+    }
+
+    header nav ul:first-of-type {
+        float: left;
+        margin-right: 1em;
+    }
+
+    header nav ul:first-of-type li {
+        float: left;
+    }
+
+    header nav ul:last-of-type {
+        float: right;
+    }
+
+    header nav ul:last-of-type li {
+        float: right;
+    }
 
 /*********************
 * Main
