@@ -1,0 +1,40 @@
+
+li {
+  padding: 16px;
+}
+
+.list-image {
+  height: 260px;
+  background-image: url('../img/list-bg.png');
+  background-repeat: no-repeat;
+}
+
+.list {
+  display: inline-block;
+  margin: 38px 0 0 60px;
+}
+
+.float-right {
+  float: right;
+  /* display: inline-block; */
+  margin-right: 180px;
+}
+
+.line-through {
+  text-decoration: line-through;
+}
+
+.chopped {
+  margin-left: 25px;
+}
+
+.check {
+  margin: 8px;
+}
+
+main section:last-of-type {
+  border-top: 15px solid;
+  border-image: repeating-linear-gradient(35deg, white, white 1.5px, black 1.5px, black 2px)8;
+  padding-top: 7%;
+  margin-top: 3em;
+}
