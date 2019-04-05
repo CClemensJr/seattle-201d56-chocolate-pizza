@@ -51,3 +51,29 @@
 /*********************
 * Main
 **/
+    main section:first-of-type {
+        border-top: 15px solid;
+        border-image: repeating-linear-gradient(35deg, white, white 1.5px, black 1.5px, black 2px)8;
+        margin-bottom: 2em;
+        padding-top: 7%;
+    }
+
+    main section:first-of-type h1 {
+        display: block;
+    }
+
+    main section:first-of-type p:first-of-type {
+        float: left;
+    }
+
+    main section:first-of-type div {
+        float: right;
+    }
+
+    main section:first-of-type div img {
+        float: left;
+    }
+
+    main section:first-of-type div p {
+        float: left;
+    }
