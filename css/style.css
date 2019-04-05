@@ -58,22 +58,31 @@
         padding-top: 7%;
     }
 
-    main section:first-of-type h1 {
-        display: block;
+        main section:first-of-type h1 {
+            display: block;
+        }
+
+        main section:first-of-type p:first-of-type {
+            float: left;
+        }
+
+        main section:first-of-type div {
+            float: right;
+        }
+
+        main section:first-of-type div img {
+            float: left;
+        }
+
+        main section:first-of-type div p {
+            float: left;
+        }
+    
+    main section:last-of-type {
+        margin-top: 2em;
     }
 
-    main section:first-of-type p:first-of-type {
-        float: left;
-    }
-
-    main section:first-of-type div {
-        float: right;
-    }
-
-    main section:first-of-type div img {
-        float: left;
-    }
-
-    main section:first-of-type div p {
-        float: left;
-    }
+        main section:last-of-type p {
+            margin-bottom: 2em;
+            text-indent: 2em;
+        }
